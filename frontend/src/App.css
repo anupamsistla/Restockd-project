@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+html, body
+{
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+}
+
+#root
+{
+  display: flex;
+  flex-direction: row;
+
+  margin: 0;
+  padding: 0;
+}
+
+#app
+{
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#mainAndNav
+{
+  height: 100%;
+  width: 100%;
+}
+
+#mainContent
+{
+  height: 100%;
+  width: 100%;
+
+  background-color: white;
+
+  width: 100%;
+  height: 80%;
+}
+
+#donation { padding: 16px; 
+  color: #111; 
+  background: #fff; 
+}
+
+.donation-form { 
+  max-width: 520px;
+  display: 
+  grid; gap: 12px; 
+}
+
+.field { 
+  display: grid; 
+  gap: 4px; 
+}
+
+.field input, .field textarea {
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 6px;
+}
+
+.field input:focus, .field textarea:focus { 
+  outline: 2px solid #4f46e5; 
+}
+
+.actions { 
+  display: flex; 
+  gap: 8px; 
+}
+
+.actions button {
+  padding: 8px 12px; 
+  border-radius: 6px; 
+  border: 1px solid #ccc; 
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.actions button:hover { 
+  background: #eee; 
+}
+
+.status { 
+  margin-top: 8px; 
+}
