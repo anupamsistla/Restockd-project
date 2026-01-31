@@ -1,4 +1,4 @@
-# 🍎 Restock: Community Food Bank Donation Platform
+# 🍎 Restockd: Community Food Bank Donation Platform
 
 A full-stack web application that streamlines the coordination between food donors and food banks in real-time. Restock enables food banks to post donation needs, donors to discover nearby opportunities, and both parties to schedule seamless pickups and drop-offs.
 
